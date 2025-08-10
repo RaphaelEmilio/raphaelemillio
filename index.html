@@ -158,19 +158,28 @@
                 </div>
                 
                 <!-- Formulário de contato -->
-                <form id="contactForm" action="https://formspree.io/f/mldlawkn" method="POST">
-    <input type="text" id="name" name="name" placeholder="Seu nome" required>
-    <span id="nameError" class="error-message"></span>
-
-    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-    <span id="emailError" class="error-message"></span>
-
-    <button type="submit" class="submit-button">Enviar</button>
-
-    <div id="successMessage" class="success-message">Mensagem enviada com sucesso!</div>
-</form>
-
-                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Seu Nome *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Seu E-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <i class="fas fa-paper-plane"></i>
+                        Quero Receber Novidades!
+                    </button>
+                    
+                    <!-- Mensagem de sucesso -->
+                    <div class="success-message" id="successMessage">
+                        <i class="fas fa-check-circle"></i>
+                        Obrigado! Em breve você receberá novidades sobre meus projetos.
                     </div>
                 </form>
             </div>
@@ -204,4 +213,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
