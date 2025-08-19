@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Berkshire Swash', sans-serif;
+    font-family: 'Berkshire Swash';
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -677,3 +677,4 @@ body {
     transform: rotate(-45deg) translate(7px, -6px);
 
 }
+
