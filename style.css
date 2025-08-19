@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Berkshire Swash', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -675,4 +675,5 @@ body {
 
 .menu-toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
+
 }
